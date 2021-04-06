@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Bilal Leadbitter | Python Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,17 +10,17 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Bilal Leadbitter',
+  subtitle: 'Python Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I am a self taught Python Developer with experience in using Django, Flask and React. While primarily being a backend developer, I also have experience with front end frameworks such as Gatsby and Next.js on top of my Python knowledge',
+  paragraphTwo: 'In my spare time, I enjoy looking the latest technologies and seeing if and where I can utilise them. I am also an avid gamer and have been forever. From the N64 to the Series X, I have played them all. I also enjoy football and other sports when I am not gaming',
+  paragraphThree: 'I am avaliable to work asap and would love to hear from you',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'bilal.leadbitter@gmail.com',
 };
 
 // FOOTER DATA
@@ -78,12 +78,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/bilal-leadbitter-b22b46192/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Mylus1',
     },
   ],
 };
