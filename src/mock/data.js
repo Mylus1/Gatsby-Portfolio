@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'pokedex.jpg',
+    img: 'pokedex.png',
     title: 'Vanilla Javascript Pokedex',
     info: 'Vanilla Javascript Pokedex using data pulled from the PokeAPI. I used this project to cement my knowledge of HTML, CSS and JS before I plan on moving on to using other frameworks and utilities',
     info2: '',
