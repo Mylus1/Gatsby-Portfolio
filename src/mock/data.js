@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Bilal Leadbitter | Python Developer', // e.g: 'Name | Developer'
+  title: 'Bilal Leadbitter | Full Stack Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -11,29 +11,29 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Bilal Leadbitter',
-  subtitle: 'Python Developer',
+  subtitle: 'Full Stack Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a self taught Python Developer with experience in using Django, Flask and React. While primarily being a backend developer, I also have experience with front end frameworks such as Gatsby and Next.js on top of my Python knowledge',
+  paragraphOne: 'I am a self taught Full Stack Developer with experience in using HTML, CSS, Javascript, React, Django, Node and GraphQL.',
   paragraphTwo: 'In my spare time, I enjoy looking the latest technologies and seeing if and where I can utilise them. I am also an avid gamer and have been forever. From the N64 to the Series X, I have played them all. I also enjoy football and other sports when I am not gaming',
-  paragraphThree: 'I am avaliable to work asap and would love to hear from you',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: 'I am avaliable to work asap and would love to hear from you. Please contact me if you would like to see my resume',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'pokedex.jpg',
+    title: 'Vanilla Javascript Pokedex',
+    info: 'Vanilla Javascript Pokedex using data pulled from the PokeAPI. I used this project to cement my knowledge of HTML, CSS and JS before I plan on moving on to using other frameworks and utilities',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Mylus1/Pokedex', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
