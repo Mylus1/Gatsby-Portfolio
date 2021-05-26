@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Vanilla Javascript Pokedex',
     info: 'Vanilla Javascript Pokedex using data pulled from the PokeAPI. I used this project to cement my knowledge of HTML, CSS and JS before I plan on moving on to using other frameworks and utilities',
     info2: '',
-    url: '',
+    url: 'https://bilal-pokedex.netlify.app',
     repo: 'https://github.com/Mylus1/Pokedex', // if no repo, the button will not show up
   },
   {
